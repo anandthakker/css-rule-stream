@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 var tokenize = require('css-tokenize'),
   duplexer = require('duplexer2'),
