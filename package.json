@@ -1,6 +1,6 @@
 {
   "name": "css-rule-stream",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "transform stream to cut css into rule-sized chunks",
   "main": "index.js",
   "scripts": {
