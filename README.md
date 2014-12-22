@@ -1,4 +1,4 @@
-css-rule-stream
+css-rule-stream [![Build Status](https://travis-ci.org/anandthakker/css-rule-stream.svg?branch=master)](https://travis-ci.org/anandthakker/css-rule-stream)
 ===============
 
 transform stream to cut css into rule-sized chunks, which come in the form:
