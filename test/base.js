@@ -16,11 +16,15 @@ test('works', function(t) {
     {"content":"body > * {\n  \n}"}
   ]
   
-  t.plan(expected.length);
+  t.plan(expected.length + 1);
   
   var rs = rules();
   rs.pipe(through.obj(function(chunk, enc, next) {
     t.same(chunk, expected.shift());
+    next();
+  },
+  function(next) {
+    t.ok(true);
     next();
   }));
   
